@@ -181,6 +181,6 @@ body {
 
 @media screen and (max-width: 450px) {
   .page-break {
-    flex-grow: 5;
+    height: 250px;
   }
 }
