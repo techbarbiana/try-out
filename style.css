@@ -187,4 +187,16 @@ body {
   .page-break-top {
     padding: 180px 0 0 0; 
   }
+
+  .framework-1,
+  .framework-2,
+  .framework-3,
+  .framework-4 {
+    font-size: 3.125rem;
+  }
+
+  .new-icons-1 {
+  font-size: 3.125rem;
+  }
+}
 }
