@@ -181,6 +181,10 @@ body {
 
 @media screen and (max-width: 450px) {
   .page-break {
-    height: 250px;
+    height: 300px;
+  }
+
+  .page-break-top {
+    padding: 180px 0 0 0; 
   }
 }
