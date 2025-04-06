@@ -198,5 +198,8 @@ body {
   .new-icons-1 {
   font-size: 1.25rem;
   }
-}
+
+  .smaller {
+    font-size: 0.9rem;
+  }
 }
