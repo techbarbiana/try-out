@@ -1,0 +1,186 @@
+:root {
+  --primary-color: #ddbcda;
+  --primary-background: #481535;
+  --secondary-color: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  margin: 0;
+  padding: 180px 0 0 0;
+  font-family: "Jost", sans-serif;
+  background-color: var(--primary-background);
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand img {
+  width: 90px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 130px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+}
+
+.navigation-bar-color {
+  background-color: var(--primary-background);
+}
+
+.custom-font-1 {
+  color: var(--primary-color);
+}
+
+.link-box-2 {
+  padding: 5px;
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  margin: 5px;
+}
+
+.new-icons-1 {
+  font-size: 30px;
+  color: #645060;
+}
+
+.page-break {
+  flex-grow: 1;
+}
+
+.framework-1,
+.framework-2,
+.framework-3,
+.framework-4 {
+  font-size: 40px;
+}
+
+.framework-1 {
+  color: orange;
+}
+
+.framework-2 {
+  color: blue;
+}
+
+.framework-3 {
+  color: yellow;
+}
+
+.framework-4 {
+  color: blueviolet;
+}
+
+.services {
+  width: 200px;
+  height: 120px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.services-2 {
+  background-color: #32182f84;
+}
+
+.contact-btn {
+  color: var(--primary-color);
+  transition: all 0.5s;
+  position: relative;
+  text-decoration: none;
+}
+
+.contact-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: var(--secondary-color);
+  transition: all 0.3s;
+}
+
+.contact-btn:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+
+.contact-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: scale(1.2, 1.2);
+}
+
+.contact-btn:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .index-1 {
+    font-size: 0.9rem;
+  }
+  .about-1 {
+    padding-bottom: 3.125rem;
+  }
+
+  .framework-1,
+  .framework-2,
+  .framework-3,
+  .framework-4 {
+    font-size: 1.875rem;
+  }
+
+  .new-icons-1 {
+    font-size: 1.5rem;
+  }
+
+  .responsiveness {
+    margin: 0 1.25rem 0 1.25rem;
+  }
+
+  .responsiveness-1 {
+    margin: 0 5.625rem;
+  }
+
+  .responsiveness-3 {
+    margin: 0 1.875rem;
+  }
+
+  .five {
+    margin-right: -2.5rem;
+  }
+
+  .six {
+    margin-right: -3.625rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .page-break {
+    flex-grow: 5;
+  }
+}
