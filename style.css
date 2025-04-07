@@ -198,4 +198,8 @@ body {
   .new-icons-1 {
   font-size: 1.25rem;
   }
+
+  .bottom-padding {
+   padding-bottom: 20px;
+  }
 }
