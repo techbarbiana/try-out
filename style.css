@@ -185,7 +185,7 @@ body {
   }
 
   .page-break-top {
-    padding: 180px 0 0 0; 
+    padding: 120px 0 0 0; 
   }
 
   .framework-1,
@@ -197,9 +197,5 @@ body {
 
   .new-icons-1 {
   font-size: 1.25rem;
-  }
-
-  .smaller {
-    font-size: 0.9rem;
   }
 }
